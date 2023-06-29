@@ -1,0 +1,21 @@
+{
+  "name": "pxt-webapps",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Web applications for Microsoft MakeCode",
+  "author": "Microsoft Corporation",
+  "license": "MIT",
+  "workspaces": [
+    "./apps/*"
+  ],
+  "devDependencies": {
+    "pxt-core": "9.1.2"
+  },
+  "scripts": {
+    "build": "npm run build --workspaces --if-present",
+    "clean": "npm run clean --workspaces --if-present",
+    "strings": "npm run strings --workspaces --if-present",
+    "prettier": "npm run prettier --workspaces --if-present",
+    "link": "npm link ../pxt"
+  }
+}

@@ -1,0 +1,8 @@
+/node_modules
+/built
+/build
+.DS_Store
+*.tsbuildinfo
+*.log
+*.err
+*.out
